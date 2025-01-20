@@ -1,4 +1,4 @@
-# QuerySphere: Multiuser ReActAI Chatbot
+# Multiuser ReActAI Chatbot
 
 ## Overview
 This project implements an AI-powered assistant capable of performing multi-functional tasks such as retrieving real-time weather information and conducting advanced web searches. The assistant leverages LangGraph’s ReActAI agent, which integrates LangChain’s ReAct (Reasoning + Acting) framework with additional tools, APIs, and conversational memory for dynamic, context-aware interactions.
