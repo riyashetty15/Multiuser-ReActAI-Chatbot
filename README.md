@@ -30,7 +30,7 @@ This project demonstrates the use of modern conversational AI frameworks to crea
 
 **3. Pipeline for Dynamic Thinking:**
 
-  * The ReActAI agent processes user queries in a step-by-step manner:
+  * The ReAct AI agent processes user queries in a step-by-step manner:
     - **Reasoning**: It understands the task (e.g., "What is the weather in London?").
     - **Acting**: It chooses the appropriate tool (get_weather or search_web) to address the query.
     - **Thinking**: It evaluates the tool's response and determines the next step.
