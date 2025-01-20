@@ -8,7 +8,7 @@ The primary features of this assistant include:
 1. **Weather Information Retrieval**: The assistant uses the `get_weather` tool, powered by the WeatherAPI, to fetch real-time weather data for any location specified by the user.
 2. **Web Search Capability**: The assistant uses `search_web`, a tool based on Tavily Search, to retrieve relevant, detailed information from the web for user queries, such as current events or general knowledge.
 3. **Contextual Conversation Management**: The assistant uses LangGraph’s SQLite-backed memory module to store and retrieve conversation history. This ensures that follow-up questions are context-understood, enabling a smoother user experience.
-4. **Tool-Aware Reasoning**: The assistant leverages LangGraph’s ReActAI framework to decide dynamically which tool to use (e.g., weather vs. web search) based on the user’s query, reasoning through the problem in a structured manner.
+4. **Tool-Aware Reasoning**: The assistant leverages LangGraph’s ReAct AI framework to decide dynamically which tool to use (e.g., weather vs. web search) based on the user’s query, reasoning through the problem in a structured manner.
 
 This project demonstrates the use of modern conversational AI frameworks to create dynamic, multi-functional assistants that interact with APIs and efficiently manage conversational history.
 
