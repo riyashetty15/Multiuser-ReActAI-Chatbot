@@ -45,7 +45,7 @@ The user submits a query, such as:
 “What’s the weather in San Francisco?”<br>
 “What are the latest advancements in quantum computing?”
 #### Step 2: Prompt Processing
-The ReActAI agent receives the query and the system prompt. It reasons about the task and decides which tool to use:<br>
+The ReAct AI agent receives the query and the system prompt. It reasons about the task and decides which tool to use:<br>
 
 - For a weather-related query, it calls the get_weather function.
 - For a general information query, it invokes the search_web function.
@@ -61,7 +61,7 @@ The ReActAI agent receives the query and the system prompt. It reasons about the
 - Saving conversation history linked to a session ID.
 - Loading past threads when the user interacts again in the same session.
 ---
-## Benefits of Using LangGraph ReActAI
+## Benefits of Using LangGraph ReAct AI
 - Dynamic Task Handling: Automatically selects the appropriate tool for the query.
 - Context Awareness: Maintains session history for natural, multi-turn conversations.
 - Scalable Integration: Easily extendable to include more tools and APIs.
